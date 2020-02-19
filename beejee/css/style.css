@@ -1,0 +1,295 @@
+li{list-style: none;}
+#submit{
+    background: url(/images/grd_reg_button.png);
+    border: 1px solid #E4E4E4;
+    font: bold 13px sans-serif;
+    border-radius:5px ;
+   -webkit-border-radius:5px ;
+   -moz-border-radius:5px ;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 33px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+#submit:active{
+    background: url(/images/grd_reg_button_vert.png);
+}
+.h2-title{
+    font: 20px sans-serif;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 3px;
+}
+
+#form-registration{
+    margin-top: 30px;
+}
+#form-registration li{
+    margin-top: 10px;
+    list-style: none;
+}
+#form-registration > li > input{
+    height: 30px;
+    width: 320px;
+    font: 17px sans-serif;
+    margin-left: 90px;
+    padding-left: 5px;
+    color: black;
+    border-left:1px solid #ABABAB ;
+    border-top:1px solid #ABABAB ;
+
+    border-right:1px solid #DDDDDD ;
+    border-bottom:1px solid #DDDDDD ;
+}
+#form-registration > li > label{
+    position: absolute;
+    font: 15px sans-serif;
+    margin-top: 7px;
+}
+textarea#text_zadachi{
+    margin-left: 90px;
+    width: 320px;
+}
+.star{
+    font: 16px sans-serif;
+    color: #E35903;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#form-registration > li > input:focus{
+ border: 1px solid #C4E1EB;
+}
+#form_submit{
+    background: url(/images/grd_reg_button.png);
+    border: 1px solid #E4E4E4;
+    font: bold 13px sans-serif;
+    border-radius:5px ;
+   -webkit-border-radius:5px ;
+   -moz-border-radius:5px ;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 33px;
+    cursor: pointer;
+    margin-top: 10px;
+ }
+#form_submit:active{
+    background: url(/images/grd_reg_button_vert.png);
+}
+.error{
+    font: italic 14px sans-serif;
+    color: #CC0063;
+    margin-left: 5px;
+}
+.reg_message_good{
+    font: 18px sans-serif;
+    color: black;
+    background-color: #EDEDFF;
+    border: 1px solid #E6E6FE;
+}
+.reg_message_error{
+    font: bold 14px sans-serif;
+    color: red;
+    background-color: #F7EDEF;
+    border: 1px solid #FAC8D3;
+}
+#reg_message{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: none;
+}
+#spisok{
+    margin-top: 10px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#list-links{
+    background-color: white;
+   padding-top: 20px;
+   padding-bottom: 7px;
+}
+
+table{
+padding: 5px;
+font-family: sans-serif;
+font-size: 15px;
+border: 2px solid black;
+}
+th{
+    border: 1px solid black;
+}
+td{
+     border: 1px solid black;
+}
+#video{
+    margin-left: 188px;
+}
+.pstrnav{
+    height: 30px;
+    clear: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pstrnav li{
+    width: 26px;
+    height: 26px;
+    margin-left: 7px;
+    float: left;
+    margin-top: 3px;
+}
+.pstrnav a{
+    display: block;
+    text-decoration: none;
+    font: bold 14px sans-serif;
+    text-align: center;
+    color: black;
+    background: url(/images/nav-block-norm.png);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pstrnav a:hover{
+    background: url(/images/nav-block-hover.png);
+}
+.pstrnav a:active{
+    background: url(/images/nav-block-active.png);
+    color: white;
+}
+.pstrnav a.pstr-active{
+    background: url(/images/nav-block-active.png);
+    color: white;
+}
+.pstrnav p.nav-point{
+    text-align: center;
+    font: bold 14px sans-serif;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+#options-list > li{
+   float: left;
+   margin-left: 10px;
+   font: 14px sans-serif;
+}
+#options-list img{
+   margin-top: -4px;
+   cursor: pointer;
+}
+#options-list{
+   margin-left: -10px;
+   margin-bottom: 30px;
+}
+#select-sort{
+    color: #748996;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#sorting-list{
+    border: 1px solid #A3C0D2;
+    position: absolute;
+    width: 200px;
+    height: 108px;
+    background-color: white;
+    padding-top: 5px;
+    display: none;
+}
+#sorting-list li{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+#sorting-list a{
+    font: 15px sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#sorting-list a:hover{
+    text-decoration: underline;
+}
+#block-pass-login{
+
+  width: 375px;
+
+  height: auto;
+
+  border: 1px solid #E5E5E5;
+
+  background-color: #F2F2F2;
+
+  margin: 100px auto;
+
+}
+
+#pass-login li{
+
+   margin-top: 10px;
+
+}
+
+#pass-login label{
+
+   font: 15px sans-serif;
+
+   position: absolute;
+
+   margin-top: 4px;
+
+   margin-left: 10px;
+
+}
+
+#pass-login input{
+
+   width: 200px;
+
+   height: 24px;
+
+   margin-left: 75px;
+
+   border: 1px solid #D6D6D6;
+
+   font: 17px sans-serif;
+
+}
+
+#submit_enter{
+
+   border: 1px solid #D6D6D6;
+
+   background-color: #EAEAEA;
+
+   margin-right: 10px;
+
+   padding: 4px 6px;
+
+   font: bold 12px sans-serif;
+
+   cursor: pointer;
+
+}
+
+#submit_enter:hover{
+
+   border: 1px solid #B4B4B4;
+
+}
+
+#msgerror{
+
+    font: 14px sans-serif;
+
+    color: red;
+
+    padding-left: 15px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    background-color: #FDE5E0;
+
+    border: 1px solid #FDCDC3;
+
+    margin-top: 0;
+
+}
